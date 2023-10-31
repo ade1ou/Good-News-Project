@@ -1,0 +1,61 @@
+
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+p{
+    color: black;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+}
+
+
+.subtitles{
+    color: black;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.headimage{
+    width: 1077px;
+    height: 666px;
+    flex-shrink: 0;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: -20px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cactus{
+    width: 1301px;
+    height: 834px;
+    flex-shrink: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .aborto {
+    width: 700px;
+    height:auto;
+    flex-shrink: 0;
+  }
+  
+  .aborttext {
+    font-size: 20px;
+    padding-left: 20px;
+  }

@@ -1,0 +1,120 @@
+*{
+    margin: 30px;
+    padding: 0px;
+}
+p{
+    color: black;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #000;
+text-align: center;
+font-family: Libre Bodoni;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.headerpic{
+    width: 1390px;
+    height: 395px;
+    flex-shrink: 0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #e8dff5;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+   
+    
+    
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color:#daeaf6;
+
+
+
+
+}
+
+
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #fcf4dd;
+    
+
+}
+
+
+
+
+.white{
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.circle{
+    border-radius: 777px;
+    border: 1px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+    width: 777px;
+    height: 777px;
+    flex-shrink: 0; 
+}
+
+/* Ellipse 1 */
+.ellipse1{
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 567px;
+    top: 1193px;
+    background: url(joshua-hoehne-WeSWsnVQYqU-unsplash.jpg);
+}
+
+
