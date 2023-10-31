@@ -1,0 +1,79 @@
+*{
+    margin: 30px;
+    padding: 0px;
+}
+p{
+    color: black;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2{
+    color: #000;
+text-align: center;
+font-family: Libre Bodoni;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.headerpic{
+    width: 1390px;
+    height: 395px;
+    flex-shrink: 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 1250px; 
+    margin: 0 auto; 
+    text-align: justify;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 10px;
+  }
+  .bodyimage{
+    width: 1090px;
+    height: 838px;
+    padding-bottom: 60px;
+  }
+  .sciencepics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .pics{
+    flex: 1;
+    min-width: 370px;
+  }
+  
+  .flex-container2{
+    display: flex;
+    width: 1250px; 
+    margin: 0 auto; 
+    text-align: justify;
+  }
+
+  .background{
+    background-color: beige;
+  }
