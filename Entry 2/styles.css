@@ -13,6 +13,7 @@ p{
     font-family: Baskervville;
     font-weight: 400;
     padding-bottom: 60px;
+    line-height: 2;
 
 }
 
@@ -37,7 +38,7 @@ line-height: normal;
 .fullimage{
   width: 100dvw;
   float:left;
-  position: relative;
+  /* position: relative; */
   margin: 0px;
   padding-bottom: 60px;
 }
@@ -98,5 +99,5 @@ line-height: normal;
     position: relative;
     left:190px;
     margin: 0px;
-    shape-outside: url(...images 2/car_ 1.png);
+    shape-outside: url(Entry 2/images 2/car_ 1.png);
   }

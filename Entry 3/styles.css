@@ -10,6 +10,7 @@ p{
     display: flex;
     justify-content: left;
     align-items: left;
+    line-height: 2;
 }
 
 h1{

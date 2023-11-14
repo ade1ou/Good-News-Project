@@ -1,6 +1,8 @@
-*{
+body{
     margin: 30px;
     padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden; 
 }
 p{
     color: black;
@@ -10,6 +12,7 @@ p{
     display: flex;
     justify-content: left;
     align-items: left;
+    line-height: 2;
 }
 
 h1{
@@ -35,6 +38,10 @@ line-height: normal;
 letter-spacing: 3.2px;
 }
 
+.margins{
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
 .headerpic{
     width: 1390px;
     height: 395px;
@@ -43,24 +50,36 @@ letter-spacing: 3.2px;
 
 .flex-container {
     display: flex;
-    width: 1250px; 
+    width: 86vw; 
     margin: 0 auto; 
     text-align: justify;
+    gap: 40px;
   }
   
   .column {
     flex: 1;
     margin: 10px;
   }
-  .bodyimage{
-    width: 1090px;
-    height: 838px;
+  .imagecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 60px;
+    /* border: 1px solid black; */
+
+  }
+
+  .bodyimage{
+    max-height:100% ;
+    max-width: 100%;
+
   }
   .sciencepics{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
   .pics{
     flex: 1;
@@ -72,4 +91,21 @@ letter-spacing: 3.2px;
     width: 1250px; 
     margin: 0 auto; 
     text-align: justify;
+    gap:20px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  
+
+
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    padding-left: 10vw;
+    padding-right: 20vw;
   }
