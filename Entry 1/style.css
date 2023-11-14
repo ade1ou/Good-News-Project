@@ -1,16 +1,27 @@
 
-*{
-    margin: 60px;
-    padding: 0px;
-    box-sizing: border-box;     
+body{
+    margin-left: 60px;
+    margin-right:60px;
+    padding: 0px;  
+    max-width: 100%;
+    overflow-x: hidden; 
 }
 p{
     color: black;
     font-size: 24px;
     font-family: Baskervville;
     font-weight: 400;
-}
 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goodnews{
+    position: sticky;
+    top: 100px;
+}
 h1{
     color: black;
     font-size: 60px;
@@ -19,10 +30,27 @@ h1{
     font-weight: 500;
 }
 
+h1:hover {
+    color: green;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-weight: 500;
+
+}
+
+
+
 .wrap {
     float: right; 
-    margin: 5px;
-    width: 705px;
-    height: 607px;
-
+    position: relative;
+    left:190px;
+    margin: 0px;
+    shape-outside: url(images/abortolegal.png);
    }
+
+.cactuspic{
+    float: left;
+    right:200px;
+    margin: 0; 
+    shape-outside: url(images/miguel-urieta-6ZeLo8O7lU0-unsplash\ copy.png);
+}

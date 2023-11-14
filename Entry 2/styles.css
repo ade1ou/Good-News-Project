@@ -1,15 +1,19 @@
-*{
-    margin: 30px;
-    padding: 0px;
+
+body {
+    margin-left: 7vw;
+    margin-right:7vw;
+    padding: 0px;  
+    max-width: 100%;
+    overflow-x: hidden; 
 }
-p{
+
+p{  
     color: black;
     font-size: 24px;
     font-family: Baskervville;
     font-weight: 400;
-    display: flex;
-    justify-content: left;
-    align-items: left;
+    padding-bottom: 60px;
+
 }
 
 h1{
@@ -18,10 +22,8 @@ h1{
     font-family: Libre Bodoni;
     font-style: italic;
     font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 h2{
     color: #000;
 text-align: center;
@@ -30,91 +32,71 @@ font-size: 32px;
 font-style: italic;
 font-weight: 500;
 line-height: normal;
-letter-spacing: 3.2px;
 }
 
-.headerpic{
-    width: 1390px;
-    height: 395px;
-    flex-shrink: 0;
+.fullimage{
+  width: 100dvw;
+  float:left;
+  position: relative;
+  margin: 0px;
+  padding-bottom: 60px;
 }
-
-.container {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
+.goodnews{
+    padding-top: 10vh;
+    padding-bottom:10vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    
-   
+    height: 150px;
+}
+.cicles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.padding{
+  padding-bottom: 120px;
 }
 
-.box1{
-    height: 200px;
-    width: 200px;
-    margin: 10px;
-    background-color: #e8dff5;
+.padding2{
+  padding-bottom: 10px;
+}
+
+.container1 {
     display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: flex-start;
-   
-    
-    
-}
+    height: auto;
+    width:86vw;
+  }
+  
+  
+  .image {
+    display: flex;
+    border: 1px solid blackl;
+    padding-right: 80px;
+    align-items: center;
 
-.box2{
-    height: 200px;
-    width: 200px;
+  }
+  
+  
+  .text {
+    display: flex;
+  }
+  
+  .flex-container {
+    display: flex;
+    margin: 0 auto; 
+    text-align: justify;
+  }
+  
+  .column {
+    flex: 1;
     margin: 10px;
-    background-color:#daeaf6;
+  }
 
-
-
-
-}
-
-
-.box3{
-    height: 200px;
-    width: 200px;
-    margin: 10px;
-    background-color: #fcf4dd;
-    
-
-}
-
-
-
-
-.white{
-    color: white;
-    text-align: left;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.circle{
-    border-radius: 777px;
-    border: 1px solid #000;
-    background: rgba(217, 217, 217, 0.00);
-    width: 777px;
-    height: 777px;
-    flex-shrink: 0; 
-}
-
-/* Ellipse 1 */
-.ellipse1{
-    position: absolute;
-    width: 129px;
-    height: 129px;
-    left: 567px;
-    top: 1193px;
-    background: url(joshua-hoehne-WeSWsnVQYqU-unsplash.jpg);
-}
-
-
+  .carwrap {
+    float: right; 
+    position: relative;
+    left:190px;
+    margin: 0px;
+    shape-outside: url(...images 2/car_ 1.png);
+  }
