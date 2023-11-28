@@ -1,7 +1,5 @@
 
 body{
-    margin-left: 60px;
-    margin-right:60px;
     padding: 0px;  
     max-width: 100%;
     overflow-x: hidden; 
@@ -11,6 +9,8 @@ p{
     font-size: 24px;
     font-family: Baskervville;
     font-weight: 400;
+    margin-left: 7vw;
+    margin-right:7vw;
 
 }
 .container{
@@ -28,6 +28,8 @@ h1{
     font-family: Libre Bodoni;
     font-style: italic;
     font-weight: 500;
+    margin-left: 7vw;
+    margin-right:7vw;
 }
 
 h1:hover {
@@ -37,7 +39,6 @@ h1:hover {
     font-weight: 500;
 
 }
-
 
 
 .wrap {

@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p{
+    color: black;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2{
+    color: #000;
+text-align: center;
+font-family: Libre Bodoni;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.headimage{
+    padding-bottom: 60px;
+    display: block;
+    margin-left: 7vw;
+    margin-right: 7vw;
+   
+}
+
+  .background{
+    background-color: beige;
+  }
+
+
+  .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+
+ .twittercontainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw;
+    margin-right: 7vw;
+ }
+
+ .twitter{
+    max-width: 100%;
+ }
+ .openingtext{
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+ }
+
+ .castle{
+    width: 100vw;
+    padding-bottom: 60px;
+    margin-left: 0px;
+ }
+ .margins{
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }

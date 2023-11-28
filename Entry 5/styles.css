@@ -1,26 +1,23 @@
-*{
-    margin: 30px;
-    padding: 0px;
+body {
+	background: linear-gradient(-45deg, #A7D4E5, #B7DBE8, #FFFFFF, #ff33f9);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
-   /* Define the gradient animation */
-   @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-  /* Apply the animation to an element with the "gradient" class */
-  .gradient {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(-45deg, #A7D4E5, #B7DBE8, #FFFFFF, #ff33f9);
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s linear infinite;
-  }
+
 
 p{
     color: black;
@@ -30,6 +27,8 @@ p{
     display: flex;
     justify-content: left;
     align-items: left;
+    margin-left: 7vw;
+    margin-right:7vw;
 }
 
 h1{
@@ -43,6 +42,8 @@ h1{
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
+    margin-left: 7vw;
+    margin-right:7vw;
 }
 h2{
     color: #000;
@@ -53,6 +54,8 @@ font-style: italic;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 3.2px;
+margin-left: 7vw;
+    margin-right:7vw;
 }
 
 .headerpic{
