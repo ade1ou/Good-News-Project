@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden; 
+}
 p{
     color: black;
     font-size: 24px;
@@ -31,7 +34,6 @@ h2{
 text-align: center;
 font-family: Libre Bodoni;
 font-size: 32px;
-font-style: italic;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 3.2px;
@@ -39,33 +41,20 @@ margin-left: 7vw;
     margin-right:7vw;
 }
 
-.headerpic{
-    width: 1390px;
-    height: 395px;
-    flex-shrink: 0;
-}
-
-.container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 100%vw;
-}
 
   .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
     gap: 5px;
+    /* border:1px solid black; */
   }
   
   .image {
     flex: 1;
-    min-width: 370px;
+    /* min-width: 370px; */
+    /* border:1px solid black; */
+    align-items: center;
+    justify-content: center;
   }
   
 
@@ -83,7 +72,6 @@ margin-left: 7vw;
     color: #002147;
     font-family: Libre Bodoni;
     font-size: 32px;
-    font-style: italic;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 3.2px;
@@ -102,11 +90,7 @@ margin-left: 7vw;
     text-align: center;
 
 }
-.mainimage{
-    width:100vw;
-    height:auto;
-    margin-left: calc(-50vw + 50%);
-}
+
 
 .goodnews{
     padding-top: 10vh;

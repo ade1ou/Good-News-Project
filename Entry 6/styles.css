@@ -5,6 +5,7 @@ body {
   overflow-x: hidden; 
 }
 
+
 p{
     color: black;
     font-size: 24px;
@@ -15,6 +16,7 @@ p{
     align-items: left;
     margin-left: 7vw;
     margin-right:7vw;
+    line-height: 2;
 }
 
 h1{
@@ -36,7 +38,6 @@ h2{
 text-align: center;
 font-family: Libre Bodoni;
 font-size: 32px;
-font-style: italic;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 3.2px;
@@ -44,13 +45,10 @@ margin-left: 7vw;
   margin-right:7vw;
 }
 
-.headerpic{
-    width: 1390px;
-    height: 395px;
-    flex-shrink: 0;
+.headimage{
+  position: relative;
+  translate: -1%;
 }
-
-
   .goodnews{
     padding-top: 10vh;
     padding-bottom:10vh;
@@ -97,3 +95,4 @@ margin-left: 7vw;
   /* border:1px solid black; */
   width:27vw;
 }
+

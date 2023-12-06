@@ -50,8 +50,8 @@ h1:hover {
    }
 
 .cactuspic{
-    float: left;
-    right:200px;
+    position: relative;
     margin: 0; 
-    shape-outside: url(images/miguel-urieta-6ZeLo8O7lU0-unsplash\ copy.png);
+    translate: -8%;
+    /* shape-outside: url(images/miguel-urieta-6ZeLo8O7lU0-unsplash\ copy.png); */
 }

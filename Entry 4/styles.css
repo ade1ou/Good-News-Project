@@ -32,7 +32,6 @@ h2{
 text-align: center;
 font-family: Libre Bodoni;
 font-size: 32px;
-font-style: italic;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 3.2px;
@@ -101,11 +100,28 @@ letter-spacing: 3.2px;
   }
   
 
-
   .centered {
     position: absolute;
     top: 20%;
     left: 3%;
     padding-left: 10vw;
     padding-right: 20vw;
+  }
+
+  .moskitocontainer{
+    display: flex;
+    width: 86vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    /* border: 1px solid black; */
+    padding-bottom: 30px;
+  }
+
+  .moskitopic{
+    flex: 1;
+    box-sizing: border-box;
+  }
+
+  .padding{
+    padding-top: 60px;
   }

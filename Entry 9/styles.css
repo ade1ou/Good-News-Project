@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p{
+    color: black;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    line-height: 200%;
+}
+
+.whitetext{
+  color:white;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: Libre Bodoni;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2{
+    color: #000;
+text-align: center;
+font-family: Libre Bodoni;
+font-size: 32px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.headimage{
+    padding-bottom: 60px;
+    display: block;
+    margin-left: 7vw;
+    margin-right: 7vw;
+   
+}
+
+.padding{
+  padding-bottom: 30px;
+}
+
+  .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .headcontainer {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+ .margins{
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+.headertext {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex-container{
+  display: flex;
+  flex-direction:row;
+  width: 86vw; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column{
+  width:100vw;
+  text-align: justify;
+  padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.plane1{
+  width:20%;
+  height:auto;
+  position: absolute;
+  left: 0;
+  top: 0; /* You can adjust the top position if needed */
+}
+
+.leftImage {
+  position: absolute;
+  left: 0;
+  top: 0; /* You can adjust the top position if needed */
+  width: 300px; /* Adjust the width as per your requirement */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+} */
