@@ -37,6 +37,15 @@ margin-left: 7vw;
 margin-right:7vw;
 }
 
+.source{
+  color: grey;
+  font-size: 24px;
+  font-family: Baskervville;
+  font-weight: 400;
+  padding-bottom: 60px;
+  line-height: 2;
+}
+
 .margins{
   margin-left: 7vw;
   margin-right:7vw;
@@ -113,12 +122,7 @@ margin-right:7vw;
     /* border: 1px solid black; */
   }
   
-  .carwrap {
-    float: right; 
-    position: relative;
-    left:190px;
-    margin: 0px;
-  }
+
   
   .triangle-mask {
     position: absolute;
@@ -140,3 +144,15 @@ margin-right:7vw;
   .rightalign{
     text-align: right;
   }
+
+  .car{
+    position:absolute;
+    top: 458vh;
+    left:25vw;
+  }
+
+.money{
+  position:absolute;
+  top: 672vh;
+  left:-3vw;
+}

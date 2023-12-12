@@ -11,6 +11,7 @@ p{
     font-weight: 400;
     margin-left: 7vw;
     margin-right:7vw;
+    line-height: 2;
 
 }
 .container{
@@ -55,3 +56,10 @@ h1:hover {
     translate: -8%;
     /* shape-outside: url(images/miguel-urieta-6ZeLo8O7lU0-unsplash\ copy.png); */
 }
+
+.source{
+    color: grey;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+  }

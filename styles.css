@@ -1,7 +1,3 @@
-*{
-    margin: 30px;
-    padding: 0px;
-}
 p{
     color: black;
     font-size: 24px;
@@ -35,45 +31,189 @@ line-height: normal;
 letter-spacing: 3.2px;
 }
 
-.headerpic{
-    width: 1390px;
-    height: 395px;
-    flex-shrink: 0;
+.headimage{
+  position: relative;
+  translate: 10vw;
+  width: 10;
 }
 
-.flex-container {
-    display: flex;
-    width: 1250px; 
-    margin: 0 auto; 
-    text-align: justify;
-  }
-  
-  .column {
-    flex: 1;
-    margin: 10px;
-  }
-  .bodyimage{
-    width: 1090px;
-    height: 838px;
-    padding-bottom: 60px;
-  }
-  .sciencepics{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-  .pics{
-    flex: 1;
-    min-width: 370px;
-  }
-  
-  .flex-container2{
-    display: flex;
-    width: 1250px; 
-    margin: 0 auto; 
-    text-align: justify;
-  }
+.slide{
+  width:100vw;
+  height:100vh;
+}
 
-  .background{
-    background-color: beige;
-  }
+.wrapper{
+  display:flex;
+  flex-direction: row;
+  width: 300vw;
+  transform:rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.one{
+  position: relative;
+  background: #fffbf2;
+}
+ 
+
+.two{
+  position: relative;
+  background: #fffbf2;
+}
+.three{
+  position: relative;
+  background: #fffbf2;
+}
+
+.four{
+  position: relative;
+  background: #fffbf2;
+}
+
+.outer-wrapper{
+  width:100vh;
+  height:100vw;
+  transform:rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  max-width: 300vw;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+  display:none;
+}
+
+
+
+#walking-bear {
+  position: fixed;
+  bottom: 35vh;
+  left: -12%;
+  width: 100px; 
+  height: 100px;
+}
+
+.mexico{
+  position: absolute;
+  top: 7%;
+  border:20px solid #ffe078;
+  border-radius: 5px;
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+.cleanenergy{
+  position: absolute;
+    top: 55%;
+    transform: translateY(-5vw);
+    transform: translateX(60%);
+    border:20px solid #ffe078;
+    border-radius: 5px;
+    filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.bee{
+  position: absolute;
+    top: 16%;
+    border:20px solid #ffe078;
+    transform: translateX(150%); 
+    filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.bee img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.data{
+  position: absolute;
+  top: 30%;
+  transform: translateX(220%); 
+  border:20px solid #ffe078;
+  border-radius: 5px;
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.data img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.corals{
+  position: absolute;
+  top: 10%;
+  transform: translateX(10%);
+  border:20px solid #ffe078;
+  border-radius: 5px;
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+.corals img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.submarine{
+  position: absolute;
+  top: 40%;
+  transform: translateX(-170%);
+  border:20px solid #ffe078;
+  border-radius: 5px;
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.submarine img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.covid{
+  position: absolute;
+  top: 10%;
+  transform: translateX(-60%);
+  border:20px solid #ffe078;
+  border-radius: 5px;
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.covid img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.microplastic{
+  position: absolute;
+  top:16%;
+  transform: translateX(150%);
+  border:20px solid #ffe078;
+  border-radius: 5px; 
+  filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+.microplastic img {
+  display: block; 
+  width: 100%; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.abortion{
+  position: absolute;
+    top: 30%;
+    transform: translateX(20%); 
+    border:20px solid #ffe078;
+    border-radius: 5px;
+    filter:drop-shadow(#e7e7ee 1rem 1rem 10px);
+}
+
+

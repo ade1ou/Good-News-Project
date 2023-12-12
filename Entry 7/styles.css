@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 p{
@@ -80,31 +81,29 @@ letter-spacing: 3.2px;
     padding-left: 7vw;
     padding-right: 7vw;
   }
-.windowcontainer{
-    position: relative;
-    top:-10%;
-    text-align: center;
-}
+
 .centered {
     position: absolute;
-    top: 10%;
+    top: 350%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .windowpic{
-    width: 100vw;
   }
 
   .bottomtext{
     position: absolute;
-    top: 95%;
+    top: 580%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   .bluetext{
     color:rgb(66, 101, 115);
+    transition: color 0.3s ease;
   }
 
+  .bluetext:hover {
+    color: rgb(0, 0, 128); /* Darker blue color */
+  }
 
   .container {
     position: relative;
@@ -113,20 +112,124 @@ letter-spacing: 3.2px;
     overflow: hidden;
   }
 
-  .background-image {
+
+  .realcontainer {
+    position: relative;
+    width: 100vw; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+
+  .image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Adjust as needed */
+    object-fit: cover;
   }
 
-  .overlay-image {
+  .overlay{
     position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    top: 480%;
+    left: 13%;
+    z-index: 1; /* Higher z-index to appear on top of the image */
   }
 
-  .container:hover .overlay-image {
-    opacity: 1;
+  .left-content {
+    position: absolute;
+    top:490%;
+    left: 14%;
+    z-index: 2;
+  }
+
+  .bubble-1{
+    position: absolute;
+    top: 26%;
+    left: 37%;
+    z-index: 2;
+  }
+
+  .bubble-1-content{
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    z-index: 3; 
+    padding-left: 3%;
+  }
+
+  .smalltext{
+    color: black;
+    font-size: 15px;
+    font-family: Baskervville;
+    padding-left: 20vw;
+    padding-right: 34vw;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .cloudtext{
+    color: black;
+    font-size: 20px;
+    font-family: Baskervville;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .clouds-container {
+    position: relative;
+    width: 100vw; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+
+  .cloud1{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .cloud1-content{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    z-index: 3; 
+    padding-right: 60vw;
+  }
+
+  .cloud2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    z-index: 1;
+  }
+
+  .cloud2-content{
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    z-index: 3; 
+    padding-right: 1vw;
+  }
+
+  .cloud3{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    z-index: 1;
+  }
+
+  .cloud3-content{
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    z-index: 3; 
+    padding-right: 42vw;
+  }
+
+  .source{
+    color: grey;
+    font-size: 24px;
+    font-family: Baskervville;
+    font-weight: 400;
+  }
+
+  .padding{
+    padding: 30px;
   }

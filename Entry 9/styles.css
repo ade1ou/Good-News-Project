@@ -91,68 +91,136 @@ letter-spacing: 3.2px;
     padding-right: 2vw;
 }
 
-.plane1{
-  width:20%;
-  height:auto;
-  position: absolute;
-  left: 0;
-  top: 0; /* You can adjust the top position if needed */
-}
 
 .leftImage {
   position: absolute;
   left: 0;
-  top: 0; /* You can adjust the top position if needed */
-  width: 300px; /* Adjust the width as per your requirement */
-  height: auto; /* Maintain the aspect ratio */
+  top: 0; 
+  width: 300px; 
+  height: auto; 
 }
 
-/* body  {
-    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
-        -webkit-animation: slidein 100s;
-        animation: slidein 100s;
-
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;              
-}
-
-@-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-}
-
-@keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-
-}
-
-
-
-.center
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin: auto;
+.plane1 > *{
+  animation: fly 15s linear infinite;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(75, 75, 250, 0.3);
-  border-radius: 3px;
+left: 0;
+position: fixed;
+z-index: 999;
+pointer-events: none;
 }
-.center h1{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
-} */
+
+
+@keyframes fly {
+  0% {
+    transform: translate(-120vw, 50vh) rotateZ(0deg);
+  }
+
+  25% {
+    transform: translate(20vw, 50vh) rotateZ(0deg);
+  }
+
+  50% {
+    transform: translate(120vw, 100vh) rotateZ(45deg);
+  }
+
+  75% {
+    transform: translate(120vw, -50vh) rotateZ(90deg);
+  }
+
+  100% {
+    transform: translate(120vw, -50vh) rotateZ(135deg);
+  }
+}
+
+.plane2 > *{
+  animation: soar 15s linear infinite;
+  top: 0;
+left: 0;
+position: fixed;
+z-index: 999;
+pointer-events: none;
+}
+
+@keyframes soar {
+  0% {
+    transform: translate(120vw, 100vh);
+  }
+
+  25% {
+    transform: translate(20vw, -50vh) rotateZ(18deg);
+  }
+
+  50% {
+    transform: translate(-120vw, 50vh);
+  }
+
+  75% {
+    transform: translate(-120vw, 150vh);
+  }
+
+  100% {
+    transform: translate(-120vw, 150vh) rotateZ(-45deg);
+  }
+}
+
+.plane3 > *{
+  animation: flyRightOnly 20s linear infinite;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 888;
+  pointer-events: none;
+}
+
+@keyframes flyRightOnly {
+  0% {
+    transform: translate(-120vw, 30vh) rotateZ(0deg);
+  }
+
+  25% {
+    transform: translate(20vw, 80vh) rotateZ(14deg);
+  }
+
+  50% {
+    transform: translate(120vw, 30vh);
+  }
+
+  75% {
+    transform: translate(120vw, 130vh);
+  }
+
+  100% {
+    transform: translate(120vw, 130vh) rotateZ(20deg);
+  }
+}
+
+
+.plane4 > *{
+  animation: flyLeftOnly2 20s linear infinite;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 888;
+  pointer-events: none;
+}
+@keyframes flyLeftOnly2 {
+  0% {
+    transform: translate(120vw, 70vh);
+  }
+
+  25% {
+    transform: translate(-20vw, 20vh) rotateZ(40);
+  }
+
+  50% {
+    transform: translate(-120vw, 70vh);
+  }
+
+  75% {
+    transform: translate(-120vw, 170vh) rotateZ(-25deg);
+  }
+
+  100% {
+    transform: translate(-120vw, 170vh) rotateZ(0deg);
+  }
+}
