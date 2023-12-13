@@ -63,3 +63,53 @@ h1:hover {
     font-family: Baskervville;
     font-weight: 400;
   }
+
+
+
+  @media (max-width: 600px) {
+  body {
+    padding: 0; 
+}
+
+p {
+    font-size: 18px; 
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+h1 {
+    font-size: 40px; 
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.container {
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.goodnews {
+    position: static; 
+    width: 50%;
+}
+
+.wrap {
+    float: none; 
+    left: 0; 
+    margin: 0; 
+    shape-outside: none; 
+    width: 100%; 
+    height: auto;
+}
+
+.cactuspic img{
+    translate: 0; 
+    width: 100%; 
+    height: auto;
+}
+
+.source {
+    font-size: 18px;
+}
+
+  }
